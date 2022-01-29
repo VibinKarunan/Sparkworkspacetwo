@@ -1,0 +1,9 @@
+{
+	"name": "Datafactoryvibinone",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "65ccb73f-c64e-4637-9bcb-7a90ea578d69",
+		"tenantId": "e6afde38-0c76-40cb-b6c2-803af95e9a39"
+	}
+}
