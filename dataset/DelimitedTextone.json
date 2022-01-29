@@ -1,0 +1,32 @@
+{
+	"name": "DelimitedTextone",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorageone",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "New folder one"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "SalesLTAddress.txt",
+				"folderPath": "inputfolder",
+				"fileSystem": "containerone"
+			},
+			"columnDelimiter": "\t",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "AddressID\tAddressLine1\tAddressLine2\tCity\tStateProvince\tCountryRegion\tPostalCode\trowguid\tModifiedDate",
+				"type": "String"
+			}
+		]
+	}
+}
