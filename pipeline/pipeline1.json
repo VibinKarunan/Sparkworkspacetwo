@@ -51,128 +51,99 @@
 							{
 								"source": {
 									"name": "AddressID",
-									"type": "String",
-									"physicalType": "String"
+									"type": "String"
 								},
 								"sink": {
-									"type": "String",
-									"physicalType": "String",
-									"ordinal": 1
+									"name": "AddressID",
+									"type": "String"
 								}
 							},
 							{
 								"source": {
 									"name": "AddressLine1",
-									"type": "String",
-									"physicalType": "String"
+									"type": "String"
 								},
 								"sink": {
-									"type": "String",
-									"physicalType": "String",
-									"ordinal": 2
+									"name": "AddressLine1",
+									"type": "String"
 								}
 							},
 							{
 								"source": {
 									"name": "AddressLine2",
-									"type": "String",
-									"physicalType": "String"
+									"type": "String"
 								},
 								"sink": {
-									"type": "String",
-									"physicalType": "String",
-									"ordinal": 3
+									"name": "AddressLine2",
+									"type": "String"
 								}
 							},
 							{
 								"source": {
 									"name": "City",
-									"type": "String",
-									"physicalType": "String"
+									"type": "String"
 								},
 								"sink": {
-									"type": "String",
-									"physicalType": "String",
-									"ordinal": 4
+									"name": "City",
+									"type": "String"
 								}
 							},
 							{
 								"source": {
 									"name": "StateProvince",
-									"type": "String",
-									"physicalType": "String"
+									"type": "String"
 								},
 								"sink": {
-									"type": "String",
-									"physicalType": "String",
-									"ordinal": 5
+									"name": "StateProvince",
+									"type": "String"
 								}
 							},
 							{
 								"source": {
 									"name": "CountryRegion",
-									"type": "String",
-									"physicalType": "String"
+									"type": "String"
 								},
 								"sink": {
-									"type": "String",
-									"physicalType": "String",
-									"ordinal": 6
+									"name": "CountryRegion",
+									"type": "String"
 								}
 							},
 							{
 								"source": {
 									"name": "PostalCode",
-									"type": "String",
-									"physicalType": "String"
+									"type": "String"
 								},
 								"sink": {
-									"type": "String",
-									"physicalType": "String",
-									"ordinal": 7
+									"name": "PostalCode",
+									"type": "String"
 								}
 							},
 							{
 								"source": {
 									"name": "rowguid",
-									"type": "String",
-									"physicalType": "String"
+									"type": "String"
 								},
 								"sink": {
-									"type": "String",
-									"physicalType": "String",
-									"ordinal": 8
+									"name": "rowguid",
+									"type": "String"
 								}
 							},
 							{
 								"source": {
 									"name": "ModifiedDate",
-									"type": "String",
-									"physicalType": "String"
+									"type": "String"
 								},
 								"sink": {
-									"type": "String",
-									"physicalType": "String",
-									"ordinal": 9
+									"name": "ModifiedDate",
+									"type": "String"
 								}
 							}
-						],
-						"typeConversion": true,
-						"typeConversionSettings": {
-							"allowDataTruncation": true,
-							"treatBooleanAsNumber": false
-						}
+						]
 					}
 				},
 				"inputs": [
 					{
 						"referenceName": "DelimitedTextone",
-						"type": "DatasetReference"
-					}
-				],
-				"outputs": [
-					{
-						"referenceName": "DelimitedTextoutputone",
 						"type": "DatasetReference"
 					}
 				]
