@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "GetMetadata2",
+				"name": "Get Metadata1",
 				"type": "GetMetadata",
 				"dependsOn": [],
 				"policy": {
@@ -15,27 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"dataset": {
-						"referenceName": "DelimitedText2",
-						"type": "DatasetReference"
-					},
-					"fieldList": [
-						"columnCount",
-						"contentMD5",
-						"exists",
-						"itemName",
-						"itemType",
-						"lastModified",
-						"size",
-						"structure"
-					],
-					"storeSettings": {
-						"type": "AzureBlobFSReadSettings",
-						"enablePartitionDiscovery": false
-					},
-					"formatSettings": {
-						"type": "DelimitedTextReadSettings"
-					}
+					"fieldList": []
 				}
 			}
 		],
