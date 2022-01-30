@@ -1,0 +1,98 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "New folder Two"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "2016_Movies.xlsx",
+				"folderPath": "inputfolder",
+				"fileSystem": "containerone"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Title",
+				"type": "String"
+			},
+			{
+				"name": "Release Date",
+				"type": "String"
+			},
+			{
+				"name": "Color/B&W",
+				"type": "String"
+			},
+			{
+				"name": "Genre",
+				"type": "String"
+			},
+			{
+				"name": "Language",
+				"type": "String"
+			},
+			{
+				"name": "Country",
+				"type": "String"
+			},
+			{
+				"name": "Rating",
+				"type": "String"
+			},
+			{
+				"name": "Lead Actor",
+				"type": "String"
+			},
+			{
+				"name": "Director Name",
+				"type": "String"
+			},
+			{
+				"name": "Lead Actor FB Likes",
+				"type": "String"
+			},
+			{
+				"name": "Cast FB Likes",
+				"type": "String"
+			},
+			{
+				"name": "Director FB Likes",
+				"type": "String"
+			},
+			{
+				"name": "Movie FB Likes",
+				"type": "String"
+			},
+			{
+				"name": "IMDb Score (1-10)",
+				"type": "String"
+			},
+			{
+				"name": "Total Reviews",
+				"type": "String"
+			},
+			{
+				"name": "Duration (min)",
+				"type": "String"
+			},
+			{
+				"name": "Gross Revenue",
+				"type": "String"
+			},
+			{
+				"name": "Budget",
+				"type": "String"
+			}
+		]
+	}
+}
