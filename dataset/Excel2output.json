@@ -1,0 +1,22 @@
+{
+	"name": "Excel2output",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "New folder Two"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "OutputFloder",
+				"fileSystem": "containerone"
+			}
+		},
+		"schema": []
+	}
+}
